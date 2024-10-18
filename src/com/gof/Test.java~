@@ -1,6 +1,5 @@
 package com.gof;
 
-import com.gof.facade.Facade;
 import com.gof.singleton.SingletonEager;
 import com.gof.singleton.SingletonLazy;
 import com.gof.singleton.SingletonLazyHolder;
@@ -33,11 +32,6 @@ public class Test {
 
         robot.setBehavior(aggressiveBehavior);
         robot.move();
-
-        Facade facade = new Facade();
-        facade.migrate("John", "12345678");
-
-
 
     }
 
