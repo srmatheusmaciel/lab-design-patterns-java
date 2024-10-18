@@ -1,0 +1,16 @@
+package com.gof;
+
+public class TestSingleton {
+
+    public static void main(String[] args) {
+        SingletonEager singletonEager = SingletonEager.getInstance();
+        System.out.println(singletonEager);
+
+        SingletonLazy singletonLazy = SingletonLazy.getInstance();
+        System.out.println(singletonLazy);
+
+        SingletonLazyHolder singletonLazyHolder = SingletonLazyHolder.getInstance();
+        System.out.println(singletonLazyHolder);
+    }
+
+}
